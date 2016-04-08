@@ -1,0 +1,180 @@
+2016-04-08 14:50:35,573  thr__19 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:50:35,573  thr__19 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         null
+2016-04-08 14:50:35,589  thr__19 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         javax.servlet.ServletException: Invalid URI
+	at com.emc.fibonacci.rest.RestRequest.<init>(RestRequest.java:79)
+	at com.emc.fibonacci.rest.ProdServlet.doGet(ProdServlet.java:55)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-04-08 14:50:35,589  thr__19 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:50:45,277  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,277  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,277  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,277  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,277  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,277  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,277  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,292  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,292  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,292  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,292  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,292  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,292  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,323  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,370  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,511  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,698  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:45,979  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:45,979  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:46,790  thr__20 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:50,347  thr__21 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:50:50,347  thr__21 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:50,347  thr__21 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:50,347  thr__21 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:50:54,543  thr__22 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:50:54,543  thr__22 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:54,543  thr__22 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:54,543  thr__22 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:50:58,864  thr__23 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:50:58,864  thr__23 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:50:58,864  thr__23 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:50:58,864  thr__23 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:51:05,759  thr__24 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:51:05,759  thr__24 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         null
+2016-04-08 14:51:05,759  thr__24 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         javax.servlet.ServletException: Invalid URI
+	at com.emc.fibonacci.rest.RestRequest.<init>(RestRequest.java:79)
+	at com.emc.fibonacci.rest.ProdServlet.doGet(ProdServlet.java:55)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-04-08 14:51:05,775  thr__24 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:51:10,127  thr__25 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:51:10,127  thr__25 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         null
+2016-04-08 14:51:10,127  thr__25 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         javax.servlet.ServletException: Invalid URI
+	at com.emc.fibonacci.rest.RestRequest.<init>(RestRequest.java:79)
+	at com.emc.fibonacci.rest.ProdServlet.doGet(ProdServlet.java:55)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-04-08 14:51:10,143  thr__25 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:51:26,695  thr__26 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:51:26,695  thr__26 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         null
+2016-04-08 14:51:26,695  thr__26 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         javax.servlet.ServletException: Invalid URI
+	at com.emc.fibonacci.rest.RestRequest.<init>(RestRequest.java:79)
+	at com.emc.fibonacci.rest.ProdServlet.doGet(ProdServlet.java:55)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-04-08 14:51:26,695  thr__26 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:51:33,637  thr__27 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:51:33,637  thr__27 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:51:34,432  thr__27 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:51:34,448  thr__27 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:51:52,716  thr__28 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:51:52,716  thr__28 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)ENTRY
+2016-04-08 14:51:52,716  thr__28 com.emc.fibonacci.engine.PrintableFibonacciSequence.directPrint(PrintWriter)RETURN
+2016-04-08 14:51:52,716  thr__28 ProdServlet.doGet                                                  RETURN
+2016-04-08 14:52:01,717  thr__28 ProdServlet.doGet                                                  ENTRY
+2016-04-08 14:52:01,717  thr__28 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         null
+2016-04-08 14:52:01,717  thr__28 com.emc.fibonacci.logging.StackTraceAsString.logStackTrace         javax.servlet.ServletException: Invalid URI
+	at com.emc.fibonacci.rest.RestRequest.<init>(RestRequest.java:79)
+	at com.emc.fibonacci.rest.ProdServlet.doGet(ProdServlet.java:55)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-04-08 14:52:01,732  thr__28 ProdServlet.doGet                                                  RETURN
